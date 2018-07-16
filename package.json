@@ -4,7 +4,7 @@
   "description": "",
   "main": "./lib/app.js",
   "bin": {
-    "grmsvg": "bin/app.js"
+    "grm": "bin/app.js"
   },
   "dependencies": {
     "@balajmarius/svg2jsx": "^1.1.0",
