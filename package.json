@@ -1,0 +1,19 @@
+{
+  "name": "goorm-tools",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./lib/app.js",
+  "bin": {
+    "grmsvg": "bin/app.js"
+  },
+  "dependencies": {
+    "@balajmarius/svg2jsx": "^1.1.0",
+    "commander": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "minung.han",
+  "license": "MIT"
+}
