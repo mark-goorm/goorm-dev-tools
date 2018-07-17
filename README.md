@@ -13,7 +13,7 @@ $ npm install -g
 #### grm svg
 디자인팀으로부터 받은 svg파일을 Icon 컴포넌트로 변환시켜준다
 ```
-  Usage: svg [options] <target path>
+  Usage: svg <target path> [options]
 
   Options:
 
@@ -28,7 +28,7 @@ $ npm install -g
 #### grm cmpnt
 기본적인 component 뼈대를 만들어준다
 ```
-  Usage: cmpnt [options] <name>
+  Usage: cmpnt <name> [options]
 
   Options:
 
@@ -43,4 +43,21 @@ $ npm install -g
     $ grm cmpnt Input
     $ grm cmpnt Input -t function -p ./src/components
 ```
-### example
+
+#### grm locale
+locale.json 파일을 읽어  
+`<FomattedMessage id="[id]" defaultMessage="[message]" />`를 만들어준다
+
+```
+  Usage: locale <path> [options]
+
+  Options:
+
+    -p, --path [path]  만들어진 Message Component가 저장될 경로 (default: ./)
+    -h, --help         output usage information
+
+  Examples:
+
+    $ grm locale ./src/components/Input/locale.json
+    $ grm locale ./src/components/Input/locale.json -p ./src/components/Input
+```
