@@ -10,6 +10,8 @@ class [COMPONENT_NAME] extends React.Component {
   }
   render() {
     return (
+      <div className={styles.[COMPONENT_NAME]}>
+      </div>
     );
   }
 }

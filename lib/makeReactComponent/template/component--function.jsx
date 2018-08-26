@@ -4,6 +4,8 @@ import styles from './[COMPONENT_NAME].[CSS_EXTENTION]';
 
 const [COMPONENT_NAME] = props => {
   return (
+    <div className={styles.[COMPONENT_NAME]}>
+    </div>
   );
 }
 
